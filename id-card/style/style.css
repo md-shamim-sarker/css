@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(185, 176, 176);
+    font-family: arial;
+}
+.full-card {
+    width: 210px;
+    height: 322px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 15px;
+    color: black;
+    box-shadow: 10px 10px 10px rgb(88, 77, 77);
+}
+
+.full-card:hover {
+    width: 215px;
+    height: 327px;
+}
+/* Logo part */
+.logo-part {
+    height: 25%;
+    background-color: rgb(3, 3, 88);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    color: white;
+}
+
+.logo-part img {
+    display: block;
+    width: 70px;
+    height: 40px;
+    margin: auto;
+}
+
+.wu {
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+}
+
+.ob {
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 8px;
+    text-align: center;
+}
+
+/* Photo Part */
+.photo-part {
+    width: 210px;
+    height: 33%;
+    background-color: white;
+    color: red;
+    display: flex;
+}
+
+.bg-logo {
+    width: 60%;
+    position: relative;
+}
+
+.bg-logo img {
+    width: 100%;
+    opacity: 30%;
+}
+
+.student {
+    position: relative;
+    top: -70px;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 20px;
+    text-align: center;
+}
+
+.std-photo {
+    width: 40%;
+    position: relative;
+    top: 3px;
+}
+
+.std-photo img {
+    width: 95%;
+}
+
+.details-part {
+    height: 27%;
+    background-color: rgb(3, 3, 88);
+    color: white;
+}
+
+.name{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 17px;
+}
+
+.details-part pre{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+}
+
+.signature-part{
+    height: 20%;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.signature-part img {
+    width: 50px;
+}
+
+.signature-part p{
+    text-decoration: overline;
+    line-height: 2px;
+}
