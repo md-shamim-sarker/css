@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z-index</title>
+    <style>
+        .mycontainer {
+            width: 60%;
+            margin: auto;
+            margin-top: 100px;
+        }
+
+        .box1,
+        .box2,
+        .box3,
+        .box4,
+        .box5,
+        .box6 {
+            position: absolute;
+            width: 60px;
+            height: 60px;
+            text-align: center;
+            background-color: blue;
+            border-radius: 50%;
+        }
+
+        .box1:hover {
+            width: 80px;
+            height: 80px;
+            transition-duration: 1s;
+            z-index: 9999;
+        }
+
+        .box2 {
+            margin-left: 40px;
+            background-color: red;
+            z-index: 1;
+        }
+
+        .box2:hover {
+            width: 80px;
+            height: 80px;
+            transition-duration: 1s;
+            z-index: 9999;
+        }
+
+        .box3 {
+            margin-left: 80px;
+            background-color: violet;
+            z-index: 2;
+        }
+
+        .box3:hover {
+            width: 80px;
+            height: 80px;
+            transition-duration: 1s;
+            z-index: 9999;
+        }
+
+        .box4 {
+            margin-left: 120px;
+            background-color: green;
+            z-index: 1;
+        }
+
+        .box4:hover {
+            width: 80px;
+            height: 80px;
+            transition-duration: 1s;
+            z-index: 9999;
+        }
+
+        .box5 {
+            margin-left: 160px;
+            background-color: purple;
+        }
+
+        .box5:hover {
+            width: 80px;
+            height: 80px;
+            transition-duration: 1s;
+            z-index: 9999;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="mycontainer">
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+        <div class="box4"></div>
+        <div class="box5"></div>
+    </div>
+</body>
+
+</html>
