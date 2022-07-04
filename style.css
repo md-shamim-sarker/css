@@ -1,0 +1,62 @@
+.super-important {
+    width: 10px;
+    min-width: 10px;
+    max-width: 10px;
+    height: 10px;
+    min-height: 10px;
+    max-height: 10px;
+
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding: 10px;
+
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin: 10px;
+
+    border: 10px solid red;
+    border-radius: 5px;
+    border-top: 10px solid 10px;
+    border-top-left-radius: 5px;
+
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    font-size: large;
+    font-family: Georgia;
+    font: italic bold large Georgia;
+    text-align: left;
+    text-decoration: none;
+    list-style: none;
+    vertical-align: baseline;
+    cursor: pointer;
+    text-indent: 50px;
+    line-height: 1.6;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+
+    background-color: aqua;
+    background-image: url("#");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position: absolute;
+    visibility: hidden;
+    display: none;
+    z-index: 8;
+    pointer-events: fill;
+    opacity: 50%;
+    overflow: hidden;
+
+    box-shadow: 10px 10px 20px gray;
+    box-sizing: border-box;
+}
+
+li::before {
+    content: "*";
+}
